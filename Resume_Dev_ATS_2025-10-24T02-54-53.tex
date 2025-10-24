@@ -1,0 +1,118 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in]{geometry} % Minimum acceptable margins for one-page fit
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{helvet} % For Helvetica font
+\renewcommand{\familydefault}{\sfdefault} % Use sans-serif (Helvetica) as default
+\usepackage{ragged2e} % For better justification control
+\usepackage[none]{hyphenat} % Uncomment this - it prevents hyphenation
+\usepackage{microtype} % Improves text justification and spacing
+
+% Set justification and hyphenation settings
+\tolerance=1000 % Allows more stretching of spaces
+\emergencystretch=\maxdimen % Prevents overfull boxes
+\hyphenpenalty=10000 % Discourages hyphenation
+\hbadness=10000 % Suppresses underfull hbox warnings
+
+% Apply justification
+\justifying % From ragged2e package
+\setlength{\parindent}{0pt} % No paragraph indentation
+\setlength{\parskip}{2pt}   % Minimal paragraph spacing
+\renewcommand{\baselinestretch}{0.95} % Slightly tighter line spacing
+
+\setlength{\parindent}{0pt} % No paragraph indentation
+\setlength{\parskip}{2pt}   % Minimal paragraph spacing
+\renewcommand{\baselinestretch}{0.95} % Slightly tighter line spacing
+
+% Define tighter section formatting with recommended font size
+\titleformat{\section}{\fontsize{14}{16}\selectfont\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{2pt}{2pt} % Reduce spacing around section titles
+
+\begin{document}
+
+\begin{center}
+\vspace{-3mm}
+    \fontsize{16}{18}\selectfont \textbf{Dev Patel} \\
+    \vspace{0mm}
+    \normalsize Arlington, Virginia \textbar\ (571)259-0988  \textbar       \href{mailto:patel.d23@northeastern.edu}{patel.d23@northeastern.edu} \textbar\ \href{https://www.linkedin.com/in/devxpatel//}{LinkedIn: Dev Patel} \\
+\end{center}
+
+
+
+% \vspace{-3mm} % Reduce spacing
+\section*{Summary}
+Computer Science graduate student specializing in Data Engineering with experience in data transformation, SQL, Python, and AWS. Proven ability to build data pipelines and optimize large-scale datasets, driving enterprise solutions.
+ 
+\vspace{ 0 mm}
+\section*{Education}
+\textbf{Northeastern University, Arlington, VA} \hfill September 2025 -- Present\\
+Master of Science in Computer Science \hfill \textbf{Expected graduation: December 2027} \\
+Area of Focus: Artificial Intelligence and Machine Learning
+Relevant Coursework: Database Management Systems, Data Structures and Algorithms
+
+\vspace{1 mm} % Reduce spacing
+\textbf{St. Xavier's College, Ahmedabad, India} \hfill August 2020 - January 2024 \\
+Bachelor of Computer Applications\\
+Coursework: Core Java, DBMS, Advanced C Programming, Data Structures, Object Oriented Concepts and Programming, Python Programming for Big Data and Machine Learning, Software Development Lifecycle
+
+\section*{Skills}
+\textbf{Programming \& Scripting: } Python, SQL, Java, JavaScript \\
+\textbf{Databases \& Warehousing:} MySQL, MongoDB, BigQuery, RDBMS, Data Warehouse, Data Lake, PostgreSQL \\
+\textbf{Cloud \& Big Data:} AWS (EC2, S3, Lambda, QuickSight), Apache Spark, Hadoop, Docker \\
+\textbf{Tools \& Frameworks:} Git, Jupyter, Agile, ETL, Data Pipelines, API Integration, Tableau \\
+\textbf{ML & Analytics:} Scikit-learn, TensorFlow, PyTorch, Data Transformation, Predictive Modeling, NLP, Data Visualization \\
+\textbf{Other: }Data Modeling, Schema Design, Normalization, Documentation, Project Management, Analytical Thinking, Problem Solving, Teamwork, Effective Communication \\
+
+\vspace{-4mm}
+
+\section*{Work Experience}
+\textbf{YBI Foundations, Ahmedabad, India} \hfill May 2024 -- October 2024\\
+\textit{Data Engineering Intern} \\
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=1pt]
+\vspace{-6mm}
+\item Developed 5+ Machine Learning models, including Random Forest (92.68\% accuracy), leveraging Python and Scikit-learn with compelling visualizations using Matplotlib/Seaborn.
+\item Executed data migration strategies for 287K+ records, implementing encryption protocols and performing impact assessment for production deployment, optimizing data pipelines through automated testing.
+\end{itemize}
+\textbf{CodSoft, Bhopal, India} \hfill June 2023 -- December 2023\\
+\textit{Python Programming Intern} \\
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=1pt]
+\vspace{-6mm}
+\item Developed and integrated security scanning tools; established firewall configurations and security monitoring protocols while maintaining project documentation.
+\item Built predictive models for chatbot intent classification using deep learning and Natural Language Processing (NLP) techniques, processing 700+ unique intents with 94\% accuracy through experimental design.
+\vspace{-1mm}
+\end{itemize}
+
+\textbf{DNG Web Tech, Ahmedabad, India} \hfill February 2022 -- March 2023 \\
+\textit{Software Developer} \\
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=1pt] % Tighten item spacing
+\vspace{-7mm}
+    \item Spearheaded the full software development lifecycle of a cloud-based management application, from design to deployment, improving operational tracking efficiency by 24\%.
+\item Architected the application's backend and designed the database schema (ERDs, DFDs) to support complex modules for inventory, sales, and payroll, demonstrating strong data modeling skills.
+\item Engineered and launched key features, including a stock management system tracking 500+ products and a payroll module that automated calculations for 50+ staff, reducing manual errors by 97\%. 
+
+\end{itemize}
+
+\vspace{-4mm}
+
+\section*{Projects}
+\textbf{Sales Analytics & Predictive Modeling} \\
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=1pt]
+\vspace{-7mm}
+    \item Executed end-to-end data pipeline for sales forecasting, leveraging statistical modeling on 20,000+ records with Python and Scikit-learn to achieve 92\% prediction accuracy.
+    \item Partnered with engineering and product teams to establish real-time predictive capabilities, applying data analytics to deploy scalable Random Forest models for business optimization.
+    \end{itemize}
+
+\vspace{-2mm}
+\textbf{AI Self-Learning Chatbot} \\
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=1pt]
+\vspace{-7mm}
+    \item Designed and deployed a conversational AI chatbot, integrating GPT-4 for advanced language understanding and leveraging JSON for structuring 150+ user intents and conversational flows.
+    \item Collaborated with cross-functional teams to ensure high-performance, scalable, and testable code for production deployment, handling 2,000+ queries monthly and reducing customer response time by 73\%.
+\end{itemize}
+
+\vspace{-2mm}
+
+\end{document}
